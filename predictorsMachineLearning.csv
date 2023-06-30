@@ -1,0 +1,141 @@
+GDB Fieldname,Description,use
+OBJECTID,unique ID for block group in geodatabase,2
+ACSTOTPOP,Total population,2
+ACSIPOVBAS,Population for whom poverty status is determined,1
+ACSEDUCBAS,Population 25 years and over,0
+ACSTOTHH,Households (for linguistic isolation),0
+ACSTOTHU,Housing units (for % built pre-1960),0
+MINORPOP,count of people of color individuals,0
+MINORPCT,% people of color,2
+LOWINCOME,count of low-income individuals,0
+LOWINCPCT,% low-income,2
+LESSHS,count of individuals age 25 or over with less than high school degree,0
+LESSHSPCT,% less than high school,1
+LINGISO,count of households in linguistic isolation,0
+LINGISOPCT,% of households (interpreted as individuals) in linguistic isolation,1
+UNDER5,count of individuals under age 5,0
+UNDER5PCT,% under age 5,1
+OVER64,count of individuals over age 64,0
+OVER64PCT,% over age 64,2
+PRE1960,count of housing units built before 1960,0
+PRE1960PCT,% pre-1960 housing (lead paint indicator),1
+VULEOPCT,"Demographic Index (based on 2 factors, % low-income and % people of color)",2
+VULEO,intermediate variable used for the Demograpic Index,0
+DISPEO,intermediate variable used for the Demographic Index,0
+DSLPM,Diesel particulate matter level in air,1
+CANCER,Air toxics cancer risk,1
+RESP,Air toxics respiratory hazard index,1
+PTRAF,Traffic proximity and volume,1
+PWDIS,Indicator for major direct dischargers to water,2
+PNPL,Proximity to National Priorities List (NPL) sites,2
+PRMP,Proximity to Risk Management Plan (RMP) facilities,2
+PTSDF,Proximity to Treatment Storage and Disposal (TSDF) facilities,2
+OZONE,Ozone level in air,1
+PM25,PM2.5 level in air,1
+D_LDPNT_2,EJ Index for % pre-1960 housing (lead paint indicator),1
+D_DSLPM_2,EJ Index for Diesel particulate matter level in air,1
+D_CANCR_2,EJ Index for Air toxics cancer risk,1
+D_RESP_2,EJ Index for Air toxics respiratory hazard index,1
+D_PTRAF_2,EJ Index for Traffic proximity and volume,1
+D_PWDIS_2,EJ Index for Indicator for major direct dischargers to water,2
+D_PNPL_2,EJ Index for Proximity to National Priorities List (NPL) sites,2
+D_PRMP_2,EJ Index for Proximity to Risk Management Plan (RMP) facilities,2
+D_PTSDF_2,EJ Index for Proximity to Treatment Storage and Disposal (TSDF) facilities,2
+D_OZONE_2,EJ Index for Ozone level in air,1
+D_PM25_2,EJ Index for PM2.5 level in air,1
+STATE_NAME,Name of State,0
+ST_ABBREV,Two-letter abbreviation for State,0
+REGION,US EPA Region number,0
+P_MINORPCT,Percentile for % people of color,1
+P_LWINCPCT,Percentile for % low-income,1
+P_LESHSPCT,Percentile for % less than high school,1
+P_LNGISPCT,Percentile for % of households (interpreted as individuals) in linguistic isolation,1
+P_UNDR5PCT,Percentile for % under age 5,1
+P_OVR64PCT,Percentile for % over age 64,1
+P_LDPNT,Percentile for % pre-1960 housing (lead paint indicator),1
+P_VULEOPCT,"Percentile for Demographic Index (based on 2 factors, % low-income and % people of color)",1
+P_DSLPM,Percentile for Diesel particulate matter level in air,1
+P_CANCR,Percentile for Air toxics cancer risk,1
+P_RESP,Percentile for Air toxics respiratory hazard index,1
+P_PTRAF,Percentile for Traffic proximity and volume,1
+P_PWDIS,Percentile for Indicator for major direct dischargers to water,1
+P_PNPL,Percentile for Proximity to National Priorities List (NPL) sites,1
+P_PRMP,Percentile for Proximity to Risk Management Plan (RMP) facilities,1
+P_PTSDF,Percentile for Proximity to Treatment Storage and Disposal (TSDF) facilities,1
+P_OZONE,Percentile for Ozone level in air,1
+P_PM25,Percentile for PM2.5 level in air,1
+P_LDPNT_D2,Percentile for EJ Index for % pre-1960 housing (lead paint indicator),1
+P_DSLPM_D2,Percentile for EJ Index for Diesel particulate matter level in air,1
+P_CANCR_D2,Percentile for EJ Index for Air toxics cancer risk,1
+P_RESP_D2,Percentile for EJ Index for Air toxics respiratory hazard index,1
+P_PTRAF_D2,Percentile for EJ Index for Traffic proximity and volume,1
+P_PWDIS_D2,Percentile for EJ Index for Indicator for major direct dischargers to water,1
+P_PNPL_D2,Percentile for EJ Index for Proximity to National Priorities List (NPL) sites,1
+P_PRMP_D2,Percentile for EJ Index for Proximity to Risk Management Plan (RMP) facilities,1
+P_PTSDF_D2,Percentile for EJ Index for Proximity to Treatment Storage and Disposal (TSDF) facilities,1
+P_OZONE_D2,Percentile for EJ Index for Ozone level in air,1
+P_PM25_D2,Percentile for EJ Index for PM2.5 level in air,1
+B_MINORPCT,Map color bin for % people of color,0
+B_LWINCPCT,Map color bin for % low-income,0
+B_LESHSPCT,Map color bin for % less than high school,0
+B_LNGISPCT,Map color bin for % of households (interpreted as individuals) in linguistic isolation,0
+B_UNDR5PCT,Map color bin for % under age 5,0
+B_OVR64PCT,Map color bin for % over age 64,0
+B_LDPNT,Map color bin for % pre-1960 housing (lead paint indicator),0
+B_VULEOPCT,"Map color bin for Demographic Index (based on 2 factors, % low-income and % people of color)",0
+B_DSLPM,Map color bin for Diesel particulate matter level in air,0
+B_CANCR,Map color bin for Air toxics cancer risk,0
+B_RESP,Map color bin for Air toxics respiratory hazard index,0
+B_PTRAF,Map color bin for Traffic proximity and volume,0
+B_PWDIS,Map color bin for Indicator for major direct dischargers to water,0
+B_PNPL,Map color bin for Proximity to National Priorities List (NPL) sites,0
+B_PRMP,Map color bin for Proximity to Risk Management Plan (RMP) facilities,0
+B_PTSDF,Map color bin for Proximity to Treatment Storage and Disposal (TSDF) facilities,0
+B_OZONE,Map color bin for Ozone level in air,0
+B_PM25,Map color bin for PM2.5 level in air,0
+B_LDPNT_D2,Map color bin for EJ Index for % pre-1960 housing (lead paint indicator),0
+B_DSLPM_D2,Map color bin for EJ Index for Diesel particulate matter level in air,0
+B_CANCR_D2,Map color bin for EJ Index for Air toxics cancer risk,0
+B_RESP_D2,Map color bin for EJ Index for Air toxics respiratory hazard index,0
+B_PTRAF_D2,Map color bin for EJ Index for Traffic proximity and volume,0
+B_PWDIS_D2,Map color bin for EJ Index for Indicator for major direct dischargers to water,0
+B_PNPL_D2,Map color bin for EJ Index for Proximity to National Priorities List (NPL) sites,0
+B_PRMP_D2,Map color bin for EJ Index for Proximity to Risk Management Plan (RMP) facilities,0
+B_PTSDF_D2,Map color bin for EJ Index for Proximity to Treatment Storage and Disposal (TSDF) facilities,0
+B_OZONE_D2,Map color bin for EJ Index for Ozone level in air,0
+B_PM25_D2,Map color bin for EJ Index for PM2.5 level in air,0
+T_MINORPCT,Map popup text for % people of color,0
+T_LWINCPCT,Map popup text for % low-income,0
+T_LESHSPCT,Map popup text for % less than high school,0
+T_LNGISPCT,Map popup text for % of households (interpreted as individuals) in linguistic isolation,0
+T_UNDR5PCT,Map popup text for % under age 5,0
+T_OVR64PCT,Map popup text for % over age 64,0
+T_VULEOPCT,"Map popup text for Demographic Index (based on 2 factors, % low-income and % people of color)",0
+T_LDPNT,Map popup text for % pre-1960 housing (lead paint indicator),0
+T_LDPNT_D2,Map popup text for EJ Index for % pre-1960 housing (lead paint indicator),0
+T_DSLPM,Map popup text for Diesel particulate matter level in air,0
+T_DSLPM_D2,Map popup text for EJ Index for Diesel particulate matter level in air,0
+T_CANCR,Map popup text for Air toxics cancer risk,0
+T_CANCR_D2,Map popup text for EJ Index for Air toxics cancer risk,0
+T_RESP,Map popup text for Air toxics respiratory hazard index,0
+T_RESP_D2,Map popup text for EJ Index for Air toxics respiratory hazard index,0
+T_PTRAF,Map popup text for Traffic proximity and volume,0
+T_PTRAF_D2,Map popup text for EJ Index for Traffic proximity and volume,0
+T_PWDIS,Map popup text for Indicator for major direct dischargers to water,0
+T_PWDIS_D2,Map popup text for EJ Index for Indicator for major direct dischargers to water,0
+T_PNPL,Map popup text for Proximity to National Priorities List (NPL) sites,0
+T_PNPL_D2,Map popup text for EJ Index for Proximity to National Priorities List (NPL) sites,0
+T_PRMP,Map popup text for Proximity to Risk Management Plan (RMP) facilities,0
+T_PRMP_D2,Map popup text for EJ Index for Proximity to Risk Management Plan (RMP) facilities,0
+T_PTSDF,Map popup text for Proximity to Treatment Storage and Disposal (TSDF) facilities,0
+T_PTSDF_D2,Map popup text for EJ Index for Proximity to Treatment Storage and Disposal (TSDF) facilities,0
+T_OZONE,Map popup text for Ozone level in air,0
+T_OZONE_D2,Map popup text for EJ Index for Ozone level in air,0
+T_PM25,Map popup text for PM2.5 level in air,0
+T_PM25_D2,Map popup text for EJ Index for PM2.5 level in air,0
+AREALAND,Land area in square meters,0
+AREAWATER,Water area in square meters,0
+NPL_CNT,Number of NPL facilities in the block group,0
+TSDF_CNT,Number of TSDF facilities in the block group,0
+Shape_Length,Shape length,0
+Shape_Area,Shape area,0
